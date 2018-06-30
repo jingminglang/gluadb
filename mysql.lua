@@ -2,7 +2,6 @@
 
 
 -- local bit = require "bit"
--- local bit = require "db.numberlua".bit
 local bit = require "bit32"
 local sub = string.sub
 -- local tcp = ngx.socket.tcp
