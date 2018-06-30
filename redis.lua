@@ -4,8 +4,8 @@
 local sub = string.sub
 local byte = string.byte
 -- local tcp = ngx.socket.tcp
--- local null = ngx.null
-local null = false
+local ngx = require "ngx"
+local null = ngx.null
 local socket = require "socket"
 local type = type
 local pairs = pairs
